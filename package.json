@@ -1,0 +1,17 @@
+{
+  "name": "morelogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto": "^1.0.1",
+    "puppeteer": "^24.1.1"
+  }
+}
