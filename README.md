@@ -1,11 +1,16 @@
 # MoreLogin API with Node.js & Puppeteer
 
-This project demonstrates how to use MoreLogin APIs with Node.js and Puppeteer. It provides various API functionalities to interact with MoreLogin, automate browser sessions, and manage profiles.
+This project demonstrates how to use MoreLogin APIs in a Node.js application with Puppeteer. It includes functionalities for managing browser profiles, proxies, and fingerprinting to enhance web automation and privacy.
 
-## Features
-- Authenticate with MoreLogin API
-- Create and manage browser profiles
-- Launch and control browsers using Puppeteer
+Features
+
+Browser Profile Management: Create, update, and delete MoreLogin browser profiles.
+
+Fingerprint Management: Customize and manage browser fingerprints for anonymity.
+
+Proxy Integration: Use proxies to route browser traffic securely.
+
+Puppeteer Automation: Launch MoreLogin profiles with Puppeteer for web automation.
 
 ## Installation
 
