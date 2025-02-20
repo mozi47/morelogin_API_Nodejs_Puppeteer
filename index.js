@@ -40,7 +40,7 @@ async function main() {
     //get profiles and apply refresh finger print api
     const profiles = await getProfiles();
     if (profiles > 1) {
-      await refreshFingerPrint([profileId]);
+      await refreshFingerPrint(profileId);
       console.log("2: Refresh Finger Print Added!");
       await delays(10000);
     }
