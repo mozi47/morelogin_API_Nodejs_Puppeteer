@@ -196,7 +196,7 @@ async function refreshFingerPrint(profileId) {
   const url = `${process.env.BASEURL}/api/env/fingerprint/refresh`;
 
   const requestBody = {
-    envIds: profileId,
+    envId: profileId,
   };
 
   try {
